@@ -1,7 +1,5 @@
 const express = require("express");
 const Organization = require("../models/Organization");
-const passport = require("passport");
-const authorize = require("../config/auth");
 const router = express.Router();
 
 router.post("/create-organization", async (req, res) => {
